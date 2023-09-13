@@ -113,7 +113,6 @@ class _ListViewBuilderScreenState extends State<ListViewBuilderScreen> {
              child: const _LoadingIcon()
             ) 
 
-
           ],
         ),
       ),

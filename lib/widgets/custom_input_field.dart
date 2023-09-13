@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import
+
 import 'package:flutter/material.dart';
 import 'dart:ffi';
 
@@ -38,7 +40,7 @@ class CustomInputField extends StatelessWidget {
       textCapitalization: TextCapitalization.words,
       keyboardType: keyboardType,
       obscureText: obscureText,
-      onChanged: ( value ) => formValues[formProperty]= value,
+      onChanged: ( value ) => formValues[formProperty] = value,
       validator:( value ){
         if (  value == null  ) return 'Este campo es requerido';
         return value.length < 3 ? 'Minimo de 3 letras' : null;
@@ -52,9 +54,6 @@ class CustomInputField extends StatelessWidget {
         //prefixIcon: Icon( Icons.verified_user_outlined),
         suffixIcon: suffixIcon == null ? null : Icon( suffixIcon ),
         icon: icon == null ? null : Icon( icon ),
-
-
-        
       ),
     );
   }

@@ -4,7 +4,7 @@ import 'package:fl_components/themes/app_theme.dart';
 
 class CustomCardType1 extends StatelessWidget {
   const CustomCardType1({
-    Key? key,
+   Key? key,
   }) : super(key: key);
 
   @override
